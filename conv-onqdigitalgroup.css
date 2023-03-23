@@ -341,12 +341,13 @@ a.odg-st-item__button:hover {
 .odg-exit-lightbox {
     display: none;
     position: fixed;
-    z-index: 20000;
+    z-index: 999999999999999;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     color: #333;
+    backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);
 }
 .odg-exit-lightbox:after {
     content: "";
