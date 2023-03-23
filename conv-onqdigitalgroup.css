@@ -5,9 +5,7 @@
     --button-hover-color: #00943e;
     --bg-st-color: #003148;
 }
-body{
-background:red;
-}
+
 .odg-st-container {
     display: flex;
     font-family: neuzeit-grotesk, sans-serif;
