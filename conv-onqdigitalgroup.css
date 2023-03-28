@@ -231,6 +231,7 @@ a.odg-st-item__button:hover {
     max-width: 700px;
     color: #003148;
     margin-bottom:10px;
+    padding:0 50px;
 }
 .odg-exit-subtext {
     font-size: 16px;
@@ -372,7 +373,15 @@ a.odg-st-item__button:hover {
     display: block;
     outline: none;
 }
+@media screen and (min-width: 968px) {
+.odg-exit-text
+{
+transform:scale(1.3);}
+}
 @media screen and (max-width: 768px) {
+    .odg-exit-header
+    {
+    padding:0;}
     .odg-exit-clients img {
         max-height: 20px;
     }
