@@ -44,7 +44,7 @@
     margin-top: -5px;
 }
 .odg-st-item__copy p {
-    font-size: 18px !important;
+    font-size: 22px !important;
     line-height: 1.3em !important;
     display: block;
     margin: auto;
@@ -69,11 +69,11 @@ a.odg-st-item__button {
     text-decoration: none;
     margin: auto;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     background: linear-gradient(180deg, #2ea3f2 0%, #0e8be0 100%);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
     border-radius: 4px;
 }
 
@@ -224,12 +224,13 @@ a.odg-st-item__button:hover {
 }
 .odg-exit-header {
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 29px;
     line-height: 33px;
     text-align: center;
     max-width: 700px;
     color: #003148;
+    margin-bottom:10px;
 }
 .odg-exit-subtext {
     font-size: 16px;
@@ -269,22 +270,22 @@ a.odg-st-item__button:hover {
 }
 .odg-exit-CTA {
     background: #7bb330;
-    padding: 15px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     color: #fff !important;
     margin: auto 0;
     width: 80%;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     max-width: 350px;
     margin: 20px auto;
     text-shadow: 0 -2px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     box-sizing: border-box;
     background: linear-gradient(180deg, #2ea3f2 0%, #0e8be0 100%);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+ 
     border-radius: 4px;
 }
 .odg-exit-buttons p {
