@@ -1,13 +1,22 @@
- jQuery("body").keydown(function(event){
-
-    if((event.keyCode == 10 || event.keyCode == 13) && event.ctrlKey|| (event.metaKey || event.ctrlKey) && event.keyCode == 13) {
-     if(jQuery('.odg-st-container').length == 0){
+  jQuery(document).ready(function(){    
+    if(jQuery('.odg-st-container').length == 0){
       onqSticky();
      }
         if(jQuery('.odg-exit-lightbox').length == 0){
      	onqExit();
      }
+  });
 
+jQuery("body").keydown(function(event){
+
+    if((event.keyCode == 10 || event.keyCode == 13) && event.ctrlKey|| (event.metaKey || event.ctrlKey) && event.keyCode == 13) {
+/*     if(jQuery('.odg-st-container').length == 0){
+      onqSticky();
+     }
+        if(jQuery('.odg-exit-lightbox').length == 0){
+     	onqExit();
+     }
+*/
 
 	}
 });
