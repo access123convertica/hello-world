@@ -1,4 +1,11 @@
-  jQuery(document).ready(function(){    
+var ur = window.location.href;
+if (ur.includes("/contact")) {
+
+
+
+
+
+jQuery(document).ready(function(){    
     if(jQuery('.odg-st-container').length == 0){
       onqSticky();
      }
@@ -6,7 +13,7 @@
      	onqExit();
      }
   });
-
+}
 jQuery("body").keydown(function(event){
 
     if((event.keyCode == 10 || event.keyCode == 13) && event.ctrlKey|| (event.metaKey || event.ctrlKey) && event.keyCode == 13) {
