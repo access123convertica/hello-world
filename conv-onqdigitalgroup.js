@@ -1,5 +1,5 @@
 var ur = window.location.href;
-if (ur.includes("/contact")) {
+if (ur.includes("/contact")==false) {
 
 
 
